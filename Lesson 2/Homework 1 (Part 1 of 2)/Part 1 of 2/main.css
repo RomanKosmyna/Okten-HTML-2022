@@ -1,0 +1,54 @@
+body {
+    font-family: "Arial Black", 'Source Sans Pro', sans-serif;
+    color: red;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container {
+    width: 60%;
+    margin: 2em auto 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em;
+}
+
+.main-content {
+    height: 20em;
+    background: #7EE884;
+}
+
+.main-widgets {
+    display: flex;
+    justify-content: space-between;
+}
+
+.widget {
+    width: 30%;
+    height: 10em;
+}
+
+.big {
+    background: #A3CFA7;
+}
+
+.bigger {
+    background: #F7DCEC;
+}
+
+.huge {
+    background: #FFF1DE;
+}
+
+.contact {
+    height: 25em;
+    background: #CDFFCF;
+}
+/* Box-sizing */
+.main-container, .main-content, .main-widgets, .contact {
+    box-sizing: border-box;
+}
