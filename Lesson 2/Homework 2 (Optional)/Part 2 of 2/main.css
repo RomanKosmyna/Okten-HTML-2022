@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+.main-container {
+    width: 80%;
+    margin: 5em auto 0;
+    background: #0291b5;
+}
+
+.flex-wrapper {
+    padding: 1em;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container-item {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.7em;
+}
+
+.container-item-part {
+    display: flex;
+    background: white;
+    border-radius: 2%;
+}
+
+h2 {
+    margin: .8em 0 0;
+    padding: 0 .5em;
+    color: #fab15b;
+}
+
+p {
+    margin: .5em 0 2em;
+    padding: 0 1em;
+}
+
+.icon {
+    padding: .5em;
+    font-size: 42px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
