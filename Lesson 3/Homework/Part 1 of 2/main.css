@@ -58,5 +58,6 @@
     background: darkmagenta;
     color: #56c3b7;
     font-size: 2.4rem;
-    position: absolute;
+    position: relative;
+    bottom: .8em;
 }
