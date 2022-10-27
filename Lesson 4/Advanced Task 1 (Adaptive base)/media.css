@@ -1,0 +1,57 @@
+@media screen and (min-width: 0) and (max-width: 900px) {
+    .logo-header {
+        column-gap: 2px;
+    }
+
+    .header {
+        flex-direction: row;
+    }
+
+    .header > p {
+        margin: 0;
+    }
+
+    .header > h5 {
+        margin: 0 0 0 10px;
+    }
+
+    .nav-intro-ad {
+        flex-direction: column;
+        row-gap: 5px;
+    }
+
+    .nav {
+        width: 100%;
+        height: 150px;
+    }
+
+    .nav-loc-tool {
+        width: 100%;
+    }
+
+    .main-part {
+        width: 100%;
+    }
+
+    .intro-ad {
+        width: 100%;
+    }
+
+    .types-products {
+        flex-direction: column;
+        row-gap: 5px;
+    }
+
+    .types, .products {
+        width: 100%;
+    }
+
+    .types {
+        height: 250px;
+    }
+
+    .products {
+        height: 100px;
+    }
+
+}
