@@ -1,0 +1,103 @@
+@media screen and (min-width:0) and (max-width: 600px) {
+    .container {
+        border: 5px solid black;
+        box-sizing: border-box;
+    }
+    .top {
+        height: 10%;
+        flex-direction: column;
+        justify-content: space-around;
+        background: none;
+        border-bottom: 5px solid black;
+    }
+    .block-top {
+        height: 30px;
+        margin: 0;
+    }
+    .mob-top-block {
+        width: 90%;
+    }
+    .right {
+        width: 100%;
+        height: 90%;
+    }
+    .right-one {
+        height: 15%;
+        background: none;
+        border-bottom: 5px solid black;
+    }
+    .right-two {
+        height: 20%;
+        background: none;
+        border-bottom: 5px solid black;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .smaller-block {
+        width: 46%;
+        height: 35%;
+    }
+
+    .right-three {
+        height: 55%;
+        flex-direction: column;
+    }
+    .three-left {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        background: none;
+        border-bottom: 5px solid black;
+    }
+    .block {
+        width: 95%;
+        height: 15%;
+    }
+    .three-right {
+        width: 100%;
+        height: 100%;
+        background: none;
+        border-bottom: 5px solid black;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        border-bottom: 5px solid black;
+    }
+    .nope {
+        display: none;
+    }
+    .small-block {
+        width: 95%;
+        height: 35%;
+    }
+    .left {
+        display: none;
+    }
+    .mobile-block {
+        width: 95%;
+        height: 60%;
+        display: block;
+        margin-top: 5px;
+        background: pink;
+    }
+    .long-block {
+        width: 95%;
+        height: 40%;
+    }
+    .small-block {
+        margin-top: 3px;
+        height: 10%;
+    }
+    .super-small-block {
+        margin: 0;
+    }
+    .big-block {
+        height: 50%;
+    }
+    .footer {
+        height: 8.2%;
+        justify-content: space-evenly;
+        background: none;
+    }
+}
